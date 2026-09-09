@@ -1,0 +1,95 @@
+# Artifact Contracts
+
+Keep file names stable so analysis and rendering can be revised independently.
+
+## MEDIA_MANIFEST.json
+
+Contains `schemaVersion`, `generatedAt`, and `sources`. Each source has a stable `id`, absolute or project-relative `path`, `fingerprint`, `durationSec`, dimensions, frame rate, rotation, video and audio codec facts, and analysis status.
+
+## EDITORIAL_BRIEF.md
+
+Records the requested outcome, audience, platform, primary metric, viewer promise, format, narrative structure, hook, credibility strategy, visual direction, CTA, claim boundaries, and duration budget.
+
+## EDIT_DECISION.json
+
+Minimum shape:
+
+```json
+{
+  "schemaVersion": "1.0",
+  "project": {
+    "id": "project-id",
+    "primaryType": "screen-tutorial",
+    "platform": "tiktok",
+    "aspectRatio": "9:16",
+    "targetDurationSec": 30,
+    "language": "en"
+  },
+  "sources": [
+    { "id": "source-1", "path": "assets/source.mp4", "durationSec": 90 }
+  ],
+  "clips": [
+    {
+      "id": "clip-001",
+      "sourceId": "source-1",
+      "sourceInSec": 3.2,
+      "sourceOutSec": 6.8,
+      "timelineStartSec": 0,
+      "timelineDurationSec": 3.6,
+      "trackIndex": 0,
+      "role": "hook",
+      "reason": "Shows the completed result before the tutorial steps.",
+      "confidence": 0.9,
+      "scores": {
+        "semanticValue": 5,
+        "visualClarity": 4,
+        "deliveryQuality": 4,
+        "novelty": 4,
+        "emotionalForce": 3,
+        "continuity": 4,
+        "platformFit": 5
+      },
+      "treatment": {
+        "fit": "cover",
+        "crop": null,
+        "speed": 1,
+        "captionMode": "phrase"
+      }
+    }
+  ]
+}
+```
+
+`sourceInSec` is inclusive and `sourceOutSec` is exclusive for timed media. Set both to `0` for a still image. `timelineDurationSec` is the authoritative output duration after speed changes or still-image holds. Confidence ranges from 0 to 1. Component scores range from 0 to 5. Clips on the same track must not overlap on the output timeline. A transition may use its own overlay track.
+
+## ASSET_GAPS.md
+
+For each gap, record the beat, missing evidence or visual, severity, preferred remedy, fallback, provenance requirement, and status.
+
+## VISUAL_BEAT_MAP.json
+
+Contains one record per narrative beat with `id`, `startSec`, `endSec`, `spokenText`, `narrativeJob`, `evidenceRequired`, `visualClass`, `sourceRefs`, `generatedAssetBrief`, `motionIntent`, `viewerTakeaway`, and `status`.
+
+`visualClass` should use a small project-level vocabulary such as `source-proof`, `screen-action`, `programmatic-ui`, `generated-context`, `diagram`, `kinetic-type`, `stock-or-meme`, or `negative-space`. Claim-bearing beats that require evidence must use `source-proof` or another approved substantiated source; generated context cannot satisfy them.
+
+The map should expose unsupported beats, repeated compositions, and generated-asset dependencies before composition code is written. It is an editorial plan, not a frame-by-frame animation specification.
+
+## DESIGN.md
+
+Defines visual intent, colors with roles, typography, caption system, layout and safe zones, motion language, source-media treatment, and explicit anti-patterns.
+
+## STORYBOARD.md
+
+References clip IDs from `EDIT_DECISION.json` and beat IDs from `VISUAL_BEAT_MAP.json`. For every beat, specify viewer takeaway, composition, source framing, overlays, caption behavior, transition, audio treatment, and asset dependencies.
+
+## PRODUCTION_PROPOSAL.md
+
+The user-facing implementation contract created after analysis and before generation or composition work. It contains the exact script, hook, platform and duration, source selections and ranges, timed storyboard, visual and audio treatment, generated-asset plan and providers, prompts or briefs, costs, evidence and claim boundaries, digital-human use, limitations, fallbacks, and deliverables. Its status is `awaiting approval`, `approved`, or `superseded`.
+
+## APPROVAL_RECORD.md
+
+Records the approving user message, approval date, proposal identifier or fingerprint, approved scope, and any later non-material implementation adjustments. When a material change requires a revised proposal, record the new approval separately and mark the prior proposal superseded.
+
+## QC_REPORT.md
+
+Records tool versions, checks run, blocking failures, warnings, resolved issues, sampled timestamps, cut-boundary review, audio and caption checks, output properties, and known limitations.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HyperFrames Auto Editor"
+  short_description: "Route, analyze, edit, and render raw footage"
+  default_prompt: "Use $hyperframes-auto-editor to turn my raw footage into a platform-ready edited video."
