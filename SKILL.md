@@ -26,6 +26,7 @@ Record approval in `APPROVAL_RECORD.md`. An earlier approval remains valid for t
 6. When narration is abstract, footage is sparse, the format is faceless, or the reference relies on illustrative inserts, read [references/semantic-visualization.md](references/semantic-visualization.md).
 7. Follow [references/pipeline.md](references/pipeline.md). Produce the artifacts defined in [references/artifact-contracts.md](references/artifact-contracts.md).
 8. Apply [references/quality-gates.md](references/quality-gates.md) before final delivery.
+9. At intake and after failures or user feedback, apply [references/continuous-improvement.md](references/continuous-improvement.md). Carry unresolved findings into the next proposal and verify corrections against the actual output.
 
 ## Analysis Budget
 

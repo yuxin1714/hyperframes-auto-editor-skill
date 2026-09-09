@@ -98,6 +98,8 @@ Run content, continuity, layout, audio, and technical gates. Review the first th
 
 Render the requested final format after the draft passes. Preserve all planning artifacts so revisions can reuse analysis and change only affected ranges.
 
-## 14. Optional Learning Loop
+## 14. Production Learning and Optional Performance Review
+
+After a material failure, user rejection or completed iteration, follow [continuous-improvement.md](continuous-improvement.md). Record cause confidence, correction, verification evidence and unresolved items in the project's PROJECT.md. Read these at the next intake. Workflow changes remain unverified until the next output demonstrates improvement.
 
 After publication data is supplied, compare retention drops, replays, shares, saves, clicks, and comments against edit decisions. Store project-specific findings in the project. Add a general rule to shared knowledge only when evidence supports reuse and workspace policy allows it.
