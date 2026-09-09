@@ -32,6 +32,8 @@ Write `EDITORIAL_BRIEF.md` before selecting final clips. Include the audience an
 
 The brief is a decision document, not generic creative prose.
 
+For topic-driven requests, now write SCRIPT.md using steps 1–3 of [topic-to-delivery.md](topic-to-delivery.md): topic interpretation, product-fact/evidence mapping, complete narration, on-screen text, and duration estimate. Select relevant script/hook skills and record what was actually used in the brief. Reconcile the script with source feasibility before locking it; existing short narration must not silently replace the requested topic.
+
 For the two workspaces covered by [shared-visual-library.md](shared-visual-library.md), match the brief to the shared style/motion index at this point. Carry selections or explicit empty/unavailable status into DESIGN.md and the production proposal. The library is optional input, not a substitute for the brief or permission to populate it.
 
 ## 6. Creative Feasibility Gate

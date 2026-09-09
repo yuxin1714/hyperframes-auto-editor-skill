@@ -10,6 +10,10 @@ Contains `schemaVersion`, `generatedAt`, and `sources`. Each source has a stable
 
 Records the requested outcome, audience, platform, primary metric, viewer promise, format, narrative structure, hook, credibility strategy, visual direction, CTA, claim boundaries, and duration budget.
 
+## SCRIPT.md
+
+Before final assembly, create SCRIPT.md for topic-driven content. It contains topic interpretation, exact spoken text, a Chinese explanation when needed for user review, on-screen copy distinct from captions, narrative roles, evidence references, and estimated duration. Record actual narration timing after synthesis or verified transcription; estimates are not word alignment. Include the script in the approved production proposal.
+
 ## EDIT_DECISION.json
 
 Minimum shape:

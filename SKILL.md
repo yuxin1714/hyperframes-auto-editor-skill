@@ -1,11 +1,15 @@
 ---
 name: hyperframes-auto-editor
-description: Plan and produce platform-aware video edits from raw footage, then build and validate the result with HyperFrames. Use for talking-head videos, screen-recording tutorials, product ads, interviews or podcasts, narrative montages, highlight reels, and mixed-source short-form edits. Do not use for a small change to an already-authored HyperFrames composition.
+description: Develop a video topic into a product-grounded script, an approval-ready production plan, and a validated HyperFrames edit using available media. Use for topic-to-video requests, talking-head videos, screen tutorials, product ads, interviews, and mixed-source short-form edits. Do not use for a small change to an already-authored HyperFrames composition.
 ---
 
 # HyperFrames Auto Editor
 
 Turn raw media into an evidence-based edit plan and a validated HyperFrames video. Treat HyperFrames as the composition and rendering layer. Make editorial decisions before authoring composition HTML.
+
+## Topic-to-delivery mode
+
+When the user wants to supply only a topic, approve a proposal, and review the result, read [references/topic-to-delivery.md](references/topic-to-delivery.md). This is the user-facing workflow; pipeline.md supplies implementation detail. Develop the topic and product-grounded script before adapting it to existing narration. Use project defaults and reusable assets; resolve feasibility before requesting proposal approval. Do not claim this mode is operational until its required services and asset access have been tested. Preserve the approval gate below.
 
 ## Mandatory Proposal and Approval Gate
 
@@ -69,6 +73,7 @@ Do not write HyperFrames composition HTML until these exist:
 
 - `MEDIA_MANIFEST.json`
 - `EDITORIAL_BRIEF.md`
+- `SCRIPT.md`, with topic interpretation, exact narration, on-screen text, evidence mapping and duration estimate; approved as part of the proposal
 - `EDIT_DECISION.json`, successfully checked with `scripts/validate-edit-decision.mjs`
 - `ASSET_GAPS.md`
 - `VISUAL_BEAT_MAP.json`
