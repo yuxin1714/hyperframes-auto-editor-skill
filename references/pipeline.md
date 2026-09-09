@@ -4,7 +4,7 @@ This shared trunk applies to every edit mode. The mode reference changes analysi
 
 ## 1. Intake and Success Criteria
 
-Resolve the destination platform, audience, language, aspect ratio, target duration, objective, CTA, brand constraints, mandatory footage, prohibited claims, and delivery format. Infer low-risk defaults from the media and project context. Ask only when a missing choice would materially change the story or authorize paid or external processing.
+Resolve the destination platform, audience, language, aspect ratio, target duration, objective, CTA, brand constraints, mandatory footage, prohibited claims, and delivery format. For new topic, media-plus-topic, or supplied-copy requests, first follow the requirement-confirmation stage in topic-to-delivery.md. Confirm missing video type, duration, aspect ratio, resolution and style with recommendations before full scripting. Reuse explicit answers; choose unspecified preferences autonomously only when the user delegates them. Requirement confirmation does not authorize production.
 
 Define one primary success metric, such as completion, qualified click, product comprehension, saved tutorial, or highlight density. Secondary metrics may constrain the edit but should not compete equally.
 
@@ -105,3 +105,4 @@ Render the requested final format after the draft passes. Preserve all planning 
 After a material failure, user rejection or completed iteration, follow [continuous-improvement.md](continuous-improvement.md). Record cause confidence, correction, verification evidence and unresolved items in the project's PROJECT.md. Read these at the next intake. Workflow changes remain unverified until the next output demonstrates improvement.
 
 After publication data is supplied, compare retention drops, replays, shares, saves, clicks, and comments against edit decisions. Store project-specific findings in the project. Add a general rule to shared knowledge only when evidence supports reuse and workspace policy allows it.
+

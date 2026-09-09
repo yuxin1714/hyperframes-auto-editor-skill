@@ -9,8 +9,7 @@ Turn raw media into an evidence-based edit plan and a validated HyperFrames vide
 
 ## Topic-to-delivery mode
 
-When the user wants to supply only a topic, approve a proposal, and review the result, read [references/topic-to-delivery.md](references/topic-to-delivery.md). This is the user-facing workflow; pipeline.md supplies implementation detail. Develop the topic and product-grounded script before adapting it to existing narration. Use project defaults and reusable assets; resolve feasibility before requesting proposal approval. Do not claim this mode is operational until its required services and asset access have been tested. Preserve the approval gate below.
-
+For a topic, media plus topic, or supplied copy, read [references/topic-to-delivery.md](references/topic-to-delivery.md). Follow three stages: confirm requirements with the user; develop and revise the complete proposal until approved; produce and submit the video for acceptance. Before writing the full script, confirm missing choices including video type, target duration, aspect ratio, resolution and style. Give recommendations and reuse explicit answers; do not silently substitute defaults for unknown preferences. Requirement confirmation is not production approval. Pipeline.md supplies implementation detail. Do not claim production readiness until required services and assets have been tested.
 ## Mandatory Proposal and Approval Gate
 
 For every new video or substantial recut, analyze the sources and present a concrete production proposal before implementation. The proposal must be reviewable by a content owner and include the exact script, hook, platform and duration, source selections, timed storyboard, visual system, semantic inserts, generated-asset plan, audio plan, claims and evidence, known limitations, deliverables, and any external provider or estimated spend.
@@ -91,3 +90,4 @@ Create a draft-quality preview before a final encode. Inspect representative fra
 The task is complete when the requested video or reviewable draft exists, the decision plan is traceable to source media, and blocking quality checks pass.
 
 If the supplied material cannot support the requested claim, hook, duration, or visual standard, reroute the format or produce a clearly labeled review draft and record the precise gap in `ASSET_GAPS.md`. Do not present a technically valid render as final while a blocking editorial gap remains. Never fabricate product behavior, testimonials, or source events.
+
