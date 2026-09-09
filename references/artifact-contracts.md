@@ -78,6 +78,8 @@ The map should expose unsupported beats, repeated compositions, and generated-as
 
 Defines visual intent, colors with roles, typography, caption system, layout and safe zones, motion language, source-media treatment, and explicit anti-patterns.
 
+For workspaces using the shared visual library, add `Shared library selection`: library path, lookup date, separate motion/style availability, selected IDs and versions (empty arrays when empty), reasons, and project-local overrides. When actual shared implementation files are copied, record their snapshot paths and SHA-256 hashes in STYLE_LOCK.json. No snapshot is required when nothing is selected.
+
 ## STORYBOARD.md
 
 References clip IDs from `EDIT_DECISION.json` and beat IDs from `VISUAL_BEAT_MAP.json`. For every beat, specify viewer takeaway, composition, source framing, overlays, caption behavior, transition, audio treatment, and asset dependencies.

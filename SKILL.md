@@ -18,6 +18,7 @@ Record approval in `APPROVAL_RECORD.md`. An earlier approval remains valid for t
 ## Required Routing
 
 1. Read workspace instructions and relevant project context first. Keep project-specific facts in the project, not in a shared knowledge base unless explicitly requested.
+   For the 自动剪辑 and 海外内容创作 workspaces, also follow [references/shared-visual-library.md](references/shared-visual-library.md). Check the shared motion/style index during visual planning, before finalizing DESIGN.md and the production proposal. An empty library is valid and must not be populated automatically.
 2. Inventory the supplied media with `ffprobe`; preserve source files unchanged.
 3. Classify the primary edit mode from source evidence and the requested outcome: talking head; screen tutorial or software walkthrough; product ad; interview or podcast repurpose; montage, highlight reel, or mixed-source narrative.
 4. Read [references/video-types.md](references/video-types.md) for the selected mode. Use a hybrid route when two modes materially shape the edit, but name one primary mode.

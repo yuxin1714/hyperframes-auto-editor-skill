@@ -32,6 +32,8 @@ Write `EDITORIAL_BRIEF.md` before selecting final clips. Include the audience an
 
 The brief is a decision document, not generic creative prose.
 
+For the two workspaces covered by [shared-visual-library.md](shared-visual-library.md), match the brief to the shared style/motion index at this point. Carry selections or explicit empty/unavailable status into DESIGN.md and the production proposal. The library is optional input, not a substitute for the brief or permission to populate it.
+
 ## 6. Creative Feasibility Gate
 
 Before locking the script or assembly, verify that the chosen format can be supported truthfully. Check whether the sources or authorized generation tools can supply the hook, identity signal, core proof, payoff, and CTA.
