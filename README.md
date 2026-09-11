@@ -1,6 +1,8 @@
 # HyperFrames Auto Editor Skill
 
-Personal Codex skill for planning and producing platform-aware video edits with HyperFrames. It covers media analysis, format routing, source-grounded claims, semantic visualization, user-approved production proposals, composition, validation, and rendering.
+User-level Codex skill for planning and producing platform-aware video edits with HyperFrames. It accepts a topic, copy, supplied media, or reference video and covers real-source acquisition, media analysis, format routing, source-grounded claims, semantic visualization, user-approved production proposals, composition, validation, and rendering.
+
+Invoke it in any conversation with `$hyperframes-auto-editor`. Matching automatic-editing and topic-to-video requests may also select it implicitly.
 
 ## Install on another Windows device
 

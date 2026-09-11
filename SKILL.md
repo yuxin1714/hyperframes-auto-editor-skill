@@ -1,6 +1,6 @@
 ---
 name: hyperframes-auto-editor
-description: Develop a video topic into a product-grounded script, an approval-ready production plan, and a validated HyperFrames edit using available media. Use for topic-to-video requests, talking-head videos, screen tutorials, product ads, interviews, and mixed-source short-form edits. Do not use for a small change to an already-authored HyperFrames composition.
+description: Turn a topic, copy, supplied media, or reference video into an approved script and production plan, then a validated HyperFrames edit using authentic or clearly disclosed media. Use for automatic editing, topic-to-video production, reference-led recreation, talking-head videos, screen tutorials, product ads, interviews, faceless content, and mixed-source short-form edits. Do not use for a small change to an already-authored HyperFrames composition.
 ---
 
 # HyperFrames Auto Editor
@@ -94,4 +94,12 @@ If the supplied material cannot support the requested claim, hook, duration, or 
 Failure of one web-access skill, scraper, downloader, URL, or platform route is not evidence that suitable media does not exist. Continue the asset search through other available routes, including interactive browser access, official product and press pages, app-store previews, developer documentation, public demonstrations or reviews, local app or device capture, and user-supplied media. Public real-world media may be clipped, cropped, reframed, composited, and visually cleaned for the edit. Final videos do not need visible attribution unless the user requests it, but retain the source URL or acquisition path internally so authenticity and replacements remain auditable. Record the attempted routes and the remaining gap in `ASSET_GAPS.md`.
 
 For product interfaces and demonstrations, use this evidence order: user-supplied real capture; first-party capture made during production; official screenshots or videos; public real demonstration footage; a clearly disclosed editorial composite built from genuine interface media. Do not substitute invented UI, AI-generated product screens, generic low-fidelity mockups, or placeholders merely because acquisition is inconvenient or one access method failed. A simulated interface may be used only when the approved proposal explicitly identifies it as illustrative and it meets the agreed visual standard. If no truthful asset route can meet the approved standard, stop before final delivery and report the exact blocking asset rather than lowering the standard silently.
+
+## Sustainable Maintenance
+
+This is a user-level skill intended to be available from every Codex conversation. Invoke it explicitly as `$hyperframes-auto-editor`; implicit selection may also route matching video-production requests here.
+
+Treat project feedback as local until it has produced an observable improvement. Promote a rule into this skill when the user explicitly requests a global workflow change, or when the same correction proves reusable across projects. Add only the corrected operating requirement, decision rule, quality gate, or reusable helper; keep incident narratives, client facts, project assets, and one-off preferences in the project.
+
+After changing the skill, validate the complete skill directory with the skill-creator validator. Review the Git diff so unrelated project state is not included, then commit and push the validated change to the configured repository. Other devices update from that repository with `scripts/install-or-update.ps1`. Repository synchronization carries the workflow files, not local media, credentials, product knowledge bases, or machine-specific paths.
 

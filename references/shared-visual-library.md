@@ -14,6 +14,8 @@ Do not copy an absolute path from another device into project artifacts.
 
 Read its README.md and index.json during intake; inspect relevant indexed entries during visual planning. Do not scan or share another workspace's business records or knowledge/ content. For other workspaces, use this library only if explicitly requested.
 
+Read the library's SELECTION.md when present. The user has authorized automatic per-scene motion selection in these two workspaces: choose from narrative purpose, available assets, readability, brand constraints and implementation readiness. Do not ask the user to choose individual effects. Keep missing implementation work explicit; this selection authorization does not make reference entries render-ready or authorize paid assets.
+
 ## Selection in the editing workflow
 
 1. Match the editorial brief and source footage to available style and motion entries before finalizing DESIGN.md and PRODUCTION_PROPOSAL.md. A style describes the overall appearance and pacing; a motion describes a specific animation behavior. They are related but selected separately.

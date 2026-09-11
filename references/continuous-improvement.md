@@ -24,3 +24,10 @@ Use these operating requirements for new edits and substantial recuts. Keep proj
 - Compare the output against the approved creative criteria and relevant prior user feedback. Resolve blocking creative gaps before calling a video final; otherwise label it a review draft and name the remaining gap.
 - After substantive feedback, update the relevant production requirement and test it in the next output. Track unresolved project issues in PROJECT.md. A changed instruction is not yet a verified quality improvement; audience performance requires publication evidence.
 - Keep repository synchronization separate from rendering and preserve concurrent changes. Do not automatically populate shared libraries or copy production records into a content knowledge base.
+
+## Promote validated improvements
+
+- Keep a correction in the project while it is still specific to one output or awaiting verification.
+- When the user explicitly makes a workflow rule global, or a correction is demonstrated to generalize, update the narrowest relevant skill instruction or helper. Store the corrected behavior rather than the failure narrative.
+- Validate the skill after the update and inspect the diff. Synchronize the skill repository only after validation; never include project media, credentials, local knowledge bases, or machine-specific paths.
+- A successful push makes the workflow update available to other devices, but each device must pull the repository and restart Codex when discovery metadata changes.
