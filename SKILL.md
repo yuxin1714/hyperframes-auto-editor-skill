@@ -56,6 +56,8 @@ Use available tools according to the footage. WhisperX or HyperFrames transcript
 
 ## Supporting Skills
 
+For reusable motion patterns extracted from the supplied reference video, read [references/motion-library.md](references/motion-library.md). Treat it as a pattern library, not a requirement to use every effect.
+
 When available and relevant:
 
 - Use platform skills such as `viral-tiktok-content`, `viral-instagram-reels`, and `viral-short-form` to shape the editorial brief.
@@ -103,4 +105,3 @@ This is a user-level skill intended to be available from every Codex conversatio
 Treat project feedback as local until it has produced an observable improvement. Promote a rule into this skill when the user explicitly requests a global workflow change, or when the same correction proves reusable across projects. Add only the corrected operating requirement, decision rule, quality gate, or reusable helper; keep incident narratives, client facts, project assets, and one-off preferences in the project.
 
 After changing the skill, validate the complete skill directory with the skill-creator validator. Review the Git diff so unrelated project state is not included, then commit and push the validated change to the configured repository. Other devices update from that repository with `scripts/install-or-update.ps1`. Repository synchronization carries the workflow files, not local media, credentials, product knowledge bases, or machine-specific paths.
-
