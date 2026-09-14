@@ -17,6 +17,10 @@ Assign each narrative beat one primary job before choosing an asset:
 
 Do not use motion as a substitute for assigning a job. A zoom, transition, or animated title without a narrative purpose is decoration.
 
+For each material spoken beat, identify the claim/takeaway, concrete visual object or action, evidence role, and source timestamp when required. A generic product screen does not count as coverage merely because it belongs to the named product.
+
+Each foreground animation must answer: "What should the viewer notice now, and which spoken word or action triggered it?" Ground focus boxes, scans, cursors, highlights, and camera moves in the actual rendered media rectangle after crop/scale. Record the target region and activation time in the beat map, verify the active frame, and remove cues that point at no relevant object. Decorative background motion remains subordinate to proof.
+
 ## Evidence Hierarchy
 
 Use real source material for product behavior, before-and-after transformations, testimonials, performance claims, and real-world events. Generated visuals may explain what the viewer is seeing, but they cannot prove it happened.

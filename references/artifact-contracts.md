@@ -78,6 +78,8 @@ Contains one record per narrative beat with `id`, `startSec`, `endSec`, `spokenT
 
 The map should expose unsupported beats, repeated compositions, and generated-asset dependencies before composition code is written. It is an editorial plan, not a frame-by-frame animation specification.
 
+For material spoken beats, also record `visualTarget` (concrete object/action), `evidenceRole` (proof/explanation/context), and evidence timestamps where needed. Active overlays use `motionTarget` with target region relative to the rendered media and activation time; do not specify every animation frame.
+
 ## DESIGN.md
 
 Defines visual intent, colors with roles, typography, caption system, layout and safe zones, motion language, source-media treatment, and explicit anti-patterns.

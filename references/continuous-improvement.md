@@ -16,7 +16,7 @@ Use these operating requirements for new edits and substantial recuts. Keep proj
 - After production approval, verify a minimal real-media clip, audio and cut when the setup is unverified. Check media identifiers, timing ownership and layering before building the whole composition. Reuse a known working template where suitable.
 - Assemble the complete story before decorative refinement. Select style and motion by each scene's narrative job. Distinguish specified, implemented and render-verified library entries; implement only selected effects.
 - During debugging, change one suspected cause per diagnostic experiment. If a retry yields no new evidence, change the diagnostic method. Describe unconfirmed diagnoses as hypotheses.
-- Review frames in a contact sheet and inspect uncertain regions closely. Recheck affected ranges after fixes; avoid repeating unchanged checks and full-quality renders. Run required final checks on the actual delivery revision.
+- Use quality-gates.md as the sole acceptance checklist. After local visual fixes, recheck the affected range and both adjacent boundaries; global layout, timing, caption, or audio changes require the relevant full check. Avoid repeating unchanged analysis or full-quality renders. Run required final checks on the actual delivery revision.
 
 ## Review and improvement
 
