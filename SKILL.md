@@ -29,6 +29,7 @@ Record the actual approval in APPROVAL_RECORD.md. Prior approval covers technica
 - [platform-routing.md](references/platform-routing.md): destination-specific decisions.
 - [shared-visual-library.md](references/shared-visual-library.md): shared-library workspaces; check style and motion availability once during planning.
 - [semantic-visualization.md](references/semantic-visualization.md): faceless, screen-led, abstract, or illustrative beats.
+- [motion-library.md](references/motion-library.md): optional observed motion patterns; select by narrative job, not as mandatory effects.
 - [digital-human-library.md](references/digital-human-library.md): only when a recurring synthetic presenter is requested.
 - [quality-gates.md](references/quality-gates.md): the authoritative production and delivery checklist.
 - [continuous-improvement.md](references/continuous-improvement.md): efficiency and learning after feedback.
